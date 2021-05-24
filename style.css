@@ -1,0 +1,34 @@
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.fas {
+    padding: 20px;
+    color: blue;
+    margin-right: 10px;
+}
+
+.large {
+    font-size: 2.5em;
+}
+
+header {
+    font-size: 1.4em;
+}
+
+.custom-marker {
+    font-size: 1.5em;
+}
+
+.custom-marker,
+large {
+    border: 1px solid #333;
+    border-radius: 50%;
+    background-color: rgba(22, 22, 22, 0.4);
+}
